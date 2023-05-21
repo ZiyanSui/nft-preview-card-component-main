@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #8bacda;
+  background-color: #0d192b;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.container {
+  background-color: #14253d;
+  width: 35rem;
+  border-radius: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2.4rem;
+}
+
+.equil {
+  width: 30rem;
+  border-radius: 0.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.heading {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 2.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.description {
+  margin-bottom: 2.4rem;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-container {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.eth {
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #00fff8;
+}
+
+.time {
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+hr {
+  height: 0.1rem;
+  background-color: #2e405a;
+  border: none;
+
+  margin-bottom: 1.6rem;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.avatar {
+  width: 3.3rem;
+  border-radius: 50%;
+  border: 0.1rem solid #ffffff;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.name {
+  color: #fff;
+}
