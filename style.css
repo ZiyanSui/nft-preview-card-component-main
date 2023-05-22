@@ -36,17 +36,65 @@ body {
   padding: 2.4rem;
 }
 
+.img-container {
+  position: relative;
+  margin-bottom: 2.4rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00fff8;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.img-container:hover .overlay {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
 .equil {
   width: 30rem;
   border-radius: 0.8rem;
-  margin-bottom: 2.4rem;
+}
+
+.img-container svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.img-container:hover svg {
+  opacity: 1;
 }
 
 .heading {
-  color: #ffffff;
+  display: inline-block;
   font-weight: 600;
   font-size: 2.2rem;
+
   margin-bottom: 1.6rem;
+}
+
+.link:link,
+.link:visited {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #00fff8;
+  cursor: pointer;
 }
 
 .description {
@@ -98,8 +146,4 @@ hr {
 .text {
   font-weight: 400;
   font-size: 1.6rem;
-}
-
-.name {
-  color: #fff;
 }
