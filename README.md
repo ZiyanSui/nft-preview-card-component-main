@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/nft-preview-card-component-IvYqaXLt9a)
-- Live Site URL: [Add live site URL here](https://incredible-conkies-52aaaf.netlify.app/)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/nft-preview-card-component-IvYqaXLt9a)
+- Live Site URL: [live site URL here](https://incredible-conkies-52aaaf.netlify.app/)
 
 ## My process
 
