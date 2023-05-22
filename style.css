@@ -147,3 +147,22 @@ hr {
   font-weight: 400;
   font-size: 1.6rem;
 }
+
+/**************************/
+/* Responsive for mobile */
+/**************************/
+
+@media (max-width: 24em) {
+  .heading {
+    margin-bottom: 1.2rem;
+  }
+
+  .description {
+    font-size: 2rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .time {
+    margin-bottom: 1.6rem;
+  }
+}
